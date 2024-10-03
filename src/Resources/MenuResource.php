@@ -15,7 +15,13 @@ use Filament\Tables\Table;
 class MenuResource extends Resource
 {
     protected static ?string $navigationIcon = 'heroicon-o-bars-3';
-
+    
+    protected static ?int $navigationSort = 5;
+    
+    protected static ?string $modelLabel = 'Меню';
+    protected static ?string $pluralModelLabel = 'Менюта';
+    protected static ?string $navigationLabel = 'Менюта';
+    
     public static function getModel(): string
     {
         return FilamentMenuBuilderPlugin::get()->getMenuModel();
