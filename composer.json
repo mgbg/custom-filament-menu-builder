@@ -1,6 +1,6 @@
 {
-    "name": "datlechin/filament-menu-builder",
-    "description": "Create and manage menus and menu items",
+    "name": "mgbg/custom-filament-menu-builder",
+    "description": "Custom with fixes - Create and manage menus and menu items",
     "keywords": [
         "datlechin",
         "laravel",
