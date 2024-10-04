@@ -16,7 +16,7 @@ class MenuResource extends Resource
 {
     protected static ?string $navigationIcon = 'heroicon-o-bars-3';
     
-    protected static ?int $navigationSort = 5;
+    protected static ?int $navigationSort = 50;
     
     protected static ?string $modelLabel = 'Меню';
     protected static ?string $pluralModelLabel = 'Менюта';
